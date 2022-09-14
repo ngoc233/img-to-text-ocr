@@ -4,7 +4,7 @@ import express from "express";
 const app = express();
 
 
-app.get("/:language", async function (req, res) {
+app.get("/test-ocr/:language", async function (req, res) {
   const worker = createWorker({
     logger: (m) => console.log(m),
   });
@@ -48,6 +48,6 @@ app.get("/:language", async function (req, res) {
   })();
 });
 
-app.listen(3000);
+app.listen(3333);
 
 
