@@ -1,0 +1,20 @@
+{
+  "name": "img-to-text",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@githubngoc233:ngoc233/img-to-text-ocr.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "tesseract.js": "^3.0.2"
+  },
+  "type": "module"
+}
